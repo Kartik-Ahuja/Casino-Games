@@ -15,6 +15,8 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import SwipeableTemporaryDrawer from "./resnav";
+import SwipeableTemporaryDrawer2 from "./resnav2";
 // import { IoIosInformationCircle } from 'react-icons/io';
 const Navbar = () => {
   const navigate = useNavigate();
@@ -136,14 +138,20 @@ const Navbar = () => {
                       </li>
                     </ul>
 
-                    <div className="header-bar d-lg-none">
+                      <li className="ResNav">
+                        <SwipeableTemporaryDrawer/>
+                      </li>
+                      <li className="ResNav2">
+                        <SwipeableTemporaryDrawer2/>
+                      </li>
+                    {/* <div className="header-bar d-lg-none">
                       <span />
                       <span />
                       <span />
                     </div>
                     <div className="ellepsis-bar d-lg-none">
                       <i className="icofont-info-square" />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

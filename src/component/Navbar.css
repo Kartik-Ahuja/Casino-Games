@@ -87,6 +87,29 @@ h6 {
     line-height: 1.2
 }
 
+.ResNav{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .ResNav{
+           display: block;
+    };
+
+}
+
+.ResNav2{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .ResNav2{
+           display: block;
+    };
+
+}
+
+
 .h1,
 h1 {
     font-size: calc(1.375rem + 1.5vw)
